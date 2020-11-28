@@ -106,14 +106,14 @@ print(result)
 # Каждое слово состоит из латинских букв в нижнем регистре. Сделать вывод исходной строки, но каждое слово
 # должно начинаться с заглавной буквы. Необходимо использовать написанную ранее функцию int_func().
 
-# def int_func(word):
-#     return word.capitalize()
-#
-# sent = 'hi my name is eldar'
-# sent_list = sent.split()
-# result = []
-# for i in sent_list:
-#     i = int_func(i)
-#     result.append(i)
-#
-# print(' '.join(result))
+def int_func(word):
+    return word.capitalize()
+
+sent = 'hi my name is eldar'
+sent_list = sent.split()
+result = []
+for i in sent_list:
+    i = int_func(i)
+    result.append(i)
+
+print(' '.join(result))
