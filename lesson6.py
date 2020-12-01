@@ -22,6 +22,32 @@
 # Проверить работу примера на реальных данных (создать экземпляры класса Position, передать данные, проверить значения
 # атрибутов, вызвать методы экземпляров).
 
+# class Worker:
+#     """Базовый класс работника"""
+#
+#     def __init__(self, name, surname, position, wage, bonus):
+#         self.name = name
+#         self.surname = surname
+#         self.position = position
+#         self.income = {'wage': wage, "bonus": bonus}
+#
+#     def get_income(self):
+#         raise NotImplementedError
+#
+# class Position(Worker):
+#     """Класс сотрудника"""
+#
+#     def __init__(self, name, surname, position):
+#         super().__init__(name, surname, position, 100, 50)
+#
+#     def get_full_name(self):
+#         """Метод возвращающий полное имя сотрудника"""
+#         return (f'{self.name} {self.surname}')
+#
+#     def get_full_name(self):
+#         """Метод возвращающий полную зарплату сотрудника"""
+
+
 
 # 4. Реализуйте базовый класс Car. У данного класса должны быть следующие атрибуты: speed, color, name,
 # is_police (булево). А также методы: go, stop, turn(direction), которые должны сообщать, что машина поехала,
@@ -38,3 +64,4 @@
 # Pencil (карандаш), Handle (маркер). В каждом из классов реализовать переопределение метода draw.
 # Для каждого из классов методы должен выводить уникальное сообщение. Создать экземпляры классов и проверить,
 # что выведет описанный метод для каждого экземпляра.
+
